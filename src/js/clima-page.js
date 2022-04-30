@@ -13,8 +13,8 @@ const crearHtml = ( clima ) => {
     let fecha = new Date().toDateString();
 
     const html = `
-        <img src="./assets/img/${clima.weather[0].icon}.png" alt=" ${ clima.weather[0].description } ">
-        <h3>${ Math. ceil(clima.main.temp )}°c</h3>
+    <img src="./assets/img/${clima.weather[0].icon}.png" alt=" ${ clima.weather[0].description } ">
+    <h3>${ Math. ceil(clima.main.temp )}°c</h3>
         <h4> ${ clima.weather[0].main } </h4>
         <h5> ${ fecha } </h5>
         <h5> <i class="fa-solid fa-location-dot"></i> ${ clima.name } </h5>
