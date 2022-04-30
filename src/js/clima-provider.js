@@ -1,4 +1,5 @@
 /* Clima Provider */
+import 'regenerator-runtime/runtime';
 
 const getClima = async(url) => {
 
